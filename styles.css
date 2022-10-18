@@ -25,7 +25,7 @@ img {
 }
 
 .container.photo{
-	padding:  5px;
+	padding:  10px;
 	width: 100%;
 	display:  flex;
 	max-width: 900px;
@@ -34,6 +34,7 @@ img {
 .flex > div {
 	margin-bottom: 20px;
 }
+
 
 p.caption {
 	font-size: .8rem;
@@ -85,7 +86,7 @@ h2 {
 
 .icon-text {
 	padding:  10px;;
-	text-align: justify;
+	text-align: left-center;
 	font-family: 'Arial', sans-serif;
 }
 
@@ -125,9 +126,9 @@ h2 {
 /********************************************************************
  Desktop-Only Style
  ********************************************************************/
-@media (min-width:  729px) {	
+@media (min-width:  780px) {	
 }
 
 p.caption{
-		mid-width:  900px;
+		max-width: 900px;
 }
