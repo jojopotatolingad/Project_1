@@ -16,8 +16,14 @@ img {
 	width: 100%;
 }
 
+.icon-image {
+	height: 175px;
+}
 
-/**I don't understand this element*/
+.iconh2 {
+	height: 55px;
+}
+
 .container {
 	max-width:700px;
 	margin: 0 auto;
@@ -29,8 +35,9 @@ img {
 	width: 100%;
 	display:  flex;
 	max-width: 900px;
+	text-align: center;
 }
-/**I dont understand this element*/
+
 .flex > div {
 	margin-bottom: 20px;
 }
@@ -40,7 +47,7 @@ p.caption {
 	font-size: .8rem;
 	color:  gray; 
 	margin:  0 auto; 
-	text-align: center;
+	text-align: left-center;
 	padding-left:  5px;
 }
 
@@ -68,7 +75,7 @@ h2 {
 }
 
 .body-text {
-	font-family: 'Heuristica', 'Arial';
+å	font-family: 'Heuristica', 'Arial';
 	font-size: 18;
 }
 
@@ -85,8 +92,10 @@ h2 {
 }
 
 .icon-text {
-	padding:  10px;;
-	text-align: left-center;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	margin-left: 6px;
 	font-family: 'Arial', sans-serif;
 }
 
@@ -99,6 +108,7 @@ h2 {
 
 .source {
 	font-size: 16px;
+	margin-bottom: 4px;
 }
 
 .container-icons{
@@ -106,6 +116,10 @@ h2 {
 	width:  100%;
 	display: flex;
 	max-width: 1200px;
+}
+
+.sourcelinks {
+	margin: 3px;
 }
 
 /******************************************************************
@@ -120,15 +134,25 @@ h2 {
 	.flex > div {
 		flex-basis: 30%;
 		flex-wrap:  wrap-reverse;
+		padding: 10px;
 	}
+	h2 {
+		height: 55px;
+	}
+	icon-image {
+		height:  175ps;
+	}	
+
+	p.caption {
+		text-align: left-center;
+		max-width: 680px;
+		padding: 0;
+	}
+
 }
 
 /********************************************************************
  Desktop-Only Style
  ********************************************************************/
 @media (min-width:  780px) {	
-}
-
-p.caption{
-		max-width: 900px;
 }
