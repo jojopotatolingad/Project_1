@@ -16,10 +16,6 @@ img {
 	width: 100%;
 }
 
-.icon-image {
-	height: 175px;
-}
-
 .iconh2 {
 	height: 55px;
 }
@@ -34,8 +30,6 @@ img {
 	padding:  10px;
 	width: 100%;
 	display:  flex;
-	max-width: 900px;
-	text-align: center;
 }
 
 .flex > div {
@@ -94,7 +88,7 @@ h2 {
 .icon-text {
 	padding-left: 10px;
 	padding-right: 10px;
-	text-align: center;
+	text-align: left-center;
 	margin-left: 6px;
 	font-family: 'Arial', sans-serif;
 }
@@ -135,6 +129,22 @@ h2 {
 		flex-basis: 30%;
 		flex-wrap:  wrap-reverse;
 		padding: 10px;
+}
+	img {
+		height:  175px;
+	}
+
+/************I still don't understand the expressions div.cotainer.photo {xxxx} and div.container.photo >img {xxxx} and why/how they are needed.and***/
+	div.container.photo {
+		width:  680px;
+		height:  100%;
+	}
+
+	div.container.photo > img {
+		width:  680px;
+		height: 100%;
+	}
+
 	}
 	h2 {
 		height: 55px;
