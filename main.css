@@ -1,0 +1,126 @@
+/************ Mobile/Base Styles **********/
+
+*{
+	box-sizing: border-box;
+}
+
+html, body {
+	font-size: 16px;
+	font-family: 'Times New Roman', 'Arial';
+}
+
+img {
+
+	width: 100%;
+}
+
+.container {
+	max-width: 720px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.container.phto {
+	padding: 10px;
+	width: 100%;
+	display: flex;
+}
+
+.flex > div {
+	margin-bottom: 20px;
+}
+/**** added padding so text is within the borders of the image******/
+p.caption {
+	text-align: left;
+	font-size: 1.0rem;
+	color: gray;
+	margin: 0 auto;
+	padding-left: 8px;
+	padding-right: 5px;
+}
+
+p.text-date {
+	margin:0 auto;
+	color: black;
+	font-size: 18px;
+}
+
+h1 {
+	font-family: 'Times New Roman';
+	text-align: center;
+	font-size: 34px;
+	margin-bottom: 15px;
+}
+/******** added padding and margin to have subhead close to the title but a separation from name and date******/
+h2{
+margin-top: -5px;
+padding-top: -10px;
+padding-bottom: 10px;
+font-size: 21px;
+color: gray;
+font-style: italic;
+}
+
+h3 {
+	margin: 0 auto;
+	padding-top: 10px;
+	font-size: 18px;
+}
+
+.body-text {
+	font-family: 'Times New Roman', 'Arial';
+	font-size: 18px;
+	padding-top: 8px;
+}
+
+/******* added padding and margin so that map isn't so close to the edges on mobile mode ********/
+
+#datawrapper-chart-2zyhy{
+	display: flex;
+	width: 720px;
+	margin-bottom: 20px;
+	padding-left: 11px;
+	padding-right: 11px;
+}
+
+
+/********* Desktop/Tablet Styles **********/
+@media (min-width: 681px) {}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+h1 {
+	text-align: left;
+}
+
+.flex > div {
+	flex-basis: 30%;
+	flex-wrap: wrap-reverse;
+}
+/*********** added padding to provide space between the map and bottom of the page***/
+.chart_map{
+	display: flex;
+	justify-content: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+
+}
+
+/************ Desktop-Only Style Go Here *************/
+@media (min-width: 729px) {}
+
+.chart_map{
+	display: flex;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+p.caption {
+	text-align: left;
+	max-width: 720px;
+	padding: 0 auto;
+}
